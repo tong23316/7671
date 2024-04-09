@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="box" wx:for="{{list}}" wx:key="index" bindtap="deleteItem" data-index="{{index}}">
+    {{item}}
+  </view>
+</view>
